@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #BCBCBC;
+  
+}
+.hero-banner{
+border-style: solid none solid none;
+background-image: url("../images/logo-1338108__340.jpg");
+background-size: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+  
+
+  }
+  .hero-banner h2{
+    
+    padding: 25px;
+  }
+.navbar{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #393D40;
+}
+
+#myN{
+
+
+  color: #67A1CC;
+  padding: 5px;
+  font-size: 40px;
+}
+
+.nav-links ul{
+  font-size: 25px;
+margin: 0;
+padding: 0;
+display: flex;
+
+
+}
+
+.nav-links li{
+  list-style: none;
+}
+
+.nav-links li a{
+  text-decoration: none;
+  color: #67A1CC;
+padding: 10px;
+display: block;
+}
+.nav-links li:hover{
+  background-color: #51565A;
+}
+
+.page-wrapper{
+   
+  background-color:#BCBCBC;;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: flex-start;
+}
+
+#about{
+
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.about-me h2{
+  padding: 10px;
+  
+  
+min-width: 200px;
+max-width: auto;
+
+
+}
+.para1{
+  
+  width: 1fr;
+
+  background-color: #BCBCBC;
+
+}
+.para2{
+  
+  width: 1fr;
+  background-color: #BCBCBC;
+
+}
+
+
+
+
+#contact{
+  display:flex;
+}
+
+  /*  */
+
+
+
+
+ /* background-color: #67A1CC; */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
